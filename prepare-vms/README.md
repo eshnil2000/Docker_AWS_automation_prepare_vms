@@ -84,8 +84,19 @@ test         Run tests (pre-flight checks) on a batch of VMs
   - If it errors or times out, you should be able to rerun
   - Requires good connection to run all the parallel SSH connections, up to 100 parallel (ProTip: create dedicated management instance in same AWS region where you run all these utils from)
 - Run `./workshopctl pull-images TAG` to pre-pull a bunch of Docker images to the instances
+
 - Run `./workshopctl cards TAG settings/somefile.yaml` generates PDF/HTML files to print and cut and hand out to students
 - *Have a great workshop*
+
+
+
+
+
+
+
+
+:q!
+q!
 - Run `./workshopctl stop TAG` to terminate instances.
 
 ## Other Tools

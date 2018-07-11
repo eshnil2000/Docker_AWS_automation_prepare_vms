@@ -1,0 +1,5 @@
+#Minimum parameters required to be set to install Docker on remote instances
+clustersize: 1
+engine_version: test
+compose_version: 1.17.1
+machine_version: 0.13.0
